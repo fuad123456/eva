@@ -90,7 +90,7 @@ hr {
 [data-background] {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+
 }
 
 .deco_wrap {
@@ -3033,6 +3033,9 @@ button {
   position: relative;
   margin: 50px auto 0px;
 }
+/* .feature_image_1 img{
+	height: 460px;
+} */
 .feature_image_1:before {
   top: 17px;
   left: 0px;
@@ -5273,7 +5276,7 @@ blockquote .blockquote_admin i {
 .home_one_banner .item_title {
   display: block;
   line-height: 0.9;
-  font-size: 120px;
+  font-size: 106px;
   font-weight: 500;
   margin-bottom: 50px;
   letter-spacing: -2px;

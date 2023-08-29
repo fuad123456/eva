@@ -1,0 +1,110 @@
+body{
+	background-color: #000 !important;
+	color: #fff;
+	height: 100vh;
+}
+.header{
+	background-color: #000;
+	padding-top: 25px;
+}
+.nav ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 24px;
+	list-style: none;
+}
+
+.nav ul a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+}
+.main-section{
+	height: 100vh;
+	background-image: url("./img/arm-phone.png");
+	background-repeat: no-repeat;
+	background-position: 90% center;
+}
+.main-title{
+	color: #FFF;
+	font-family: "Inter", sans-serif;
+	font-size: 93.8px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 103.68px; /* 110.533% */
+}
+.main-text{
+	color: rgba(255, 255, 255, 0.60);
+	font-family: "Inter", sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 42px;
+	width: 404px;
+}
+footer{
+	height: 300px;
+}
+/* MEDIA_QUERY */
+@media screen and (max-width: 991px) {
+	.main-title{
+		color: #FFF;
+		font-family: "Inter", sans-serif;
+		font-size: 70px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 60.68px; /* 110.533% */
+	}
+
+}
+@media screen and (max-width: 768px) {
+	.main-title{
+		color: #FFF;
+		font-family: "Inter", sans-serif;
+		font-size: 64px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 60.68px; /* 110.533% */
+	}
+	/* .main-section{
+		height: 100vh;
+		background-image: url("./img/arm-phone.png");
+		background-repeat: no-repeat;
+		background-position: 100% center;
+	} */
+	.main-section{
+		background-image: none;
+	}
+}
+@media screen and (max-width: 480px) {
+	.main-title{
+		color: #FFF;
+		font-family: "Inter", sans-serif;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 60.68px; /* 110.533% */
+	}
+	.main-section{
+		background-image: none;
+	}
+}
+@media screen and (max-width: 480px) {
+	.main-title{
+		color: #FFF;
+		font-family: "Inter", sans-serif;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 60.68px; /* 110.533% */
+	}
+	.main-section{
+		background-image: none;
+	}
+}
+/* UTILITIES */
+.mt-80{
+	margin-top: 80px;
+}
